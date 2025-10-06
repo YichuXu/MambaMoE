@@ -72,14 +72,10 @@ ${DATASET_ROOT}   # Dataset root directory
 │   ├── houston13  # Houston 2013 data
 │   │   ├──GRSS2013.mat
 │   │   ├──GRSS2013_gt.mat 
-│   │
-│   ├── ip         # Indian Pines data	
-│   │   ├──Indian_pines_corrected.mat
-│   │   ├──Indian_pines_gt.mat 
 │   │     
-│   ├── whuhh     # Whu-HongHu data
-│   │   ├──WHU_Hi_HongHu.mat
-│   │   ├──WHU_Hi_HongHu_gt.mat 
+│   ├── whuhc     # Whu-HanChuan data
+│   │   ├──WHU_Hi_HanChuan.mat
+│   │   ├──WHU_Hi_HanChuan_gt.mat 
 │   │
 │   ├── other HSI Datasets   
 │   │   ├ ... 
