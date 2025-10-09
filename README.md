@@ -56,6 +56,7 @@ conda activate MambaMoE
 Our method uses python 3.8, pytorch 1.13, other environments are in requirements.txt
 ```bash
 pip install -r requirements.txt
+cd kernels/selective_scan && pip install .
 ```
 
 ### `B. Data Preparation`
@@ -84,13 +85,29 @@ ${DATASET_ROOT}   # Dataset root directory
 ```
 
 ### `C. Performance Evaluation`
-- The following commands show how to train and evaluate DSFormer for HSI classification:
+- The following commands show how to generate training samples:
 ```bash
-python main.py --model DSFormer --dataset_name pu --num_run 10 --epoch 500 --device 0 --dataID 1 --patch_size 10 --k 2/5 --train_num 30 --group_num 4 --ps 2
-python main.py --model DSFormer --dataset_name ip --num_run 10 --epoch 500 --device 1 --dataID 4 --patch_size 10 --k 4/5 --train_num 50 --group_num 4 --ps 2
-python main.py --model DSFormer --dataset_name houston13 --num_run 10 --epoch 500 --device 2 --dataID 3 --patch_size 10 --k 3/5 --train_num 50 --group_num 4 --ps 2
-python main.py --model DSFormer --dataset_name whuhh --num_run 10 --epoch 500 --device 3 --dataID 7 --patch_size 10 --k 3/5 --train_num 50 --group_num 4 --ps 2
+python GenSample.py --train_samples 15 --dataID 1
+python GenSample.py --train_samples 15 --dataID 3
+python GenSample.py --train_samples 30 --dataID 6
 ```
+
+- The following commands show how to train and evaluate MambaMoE for HSI classification:
+```bash
+CUDA_VISIBLE_DEVICES=0 python  main.py --model MambaMoE --dataID 1 --epoch 200 --lr 1e-3 --decay 0 --split False --dataset_name pu --train_num 15
+CUDA_VISIBLE_DEVICES=0 python  main.py --model MambaMoE --dataID 3 --epoch 200 --lr 5e-4 --decay 0 --split False --dataset_name houston13 --train_num 15
+CUDA_VISIBLE_DEVICES=0 python  main.py --model MambaMoE --dataID 6 --epoch 200 --lr 5e-4 --decay 5e-5 --split False --dataset_name whuhc --train_num 30
+```
+
+## 🤠Results Taken Away
+
+* *The visualization results are provided in the results folder.*
+
+* *We'd appreciate it if you could give this repo a ⭐️**star**⭐️ and stay tuned.*
+
+
+
+
 
 ## 📜Reference
 
