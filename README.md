@@ -87,9 +87,9 @@ ${DATASET_ROOT}   # Dataset root directory
 ### `C. Performance Evaluation`
 - The following commands show how to generate training samples:
 ```bash
-python GenSample.py --train_samples 15 --dataID 1
-python GenSample.py --train_samples 15 --dataID 3
-python GenSample.py --train_samples 30 --dataID 6
+python GenSample.py --train_num 15 --dataID 1
+python GenSample.py --train_num 15 --dataID 3
+python GenSample.py --train_num 30 --dataID 6
 ```
 
 - The following commands show how to train and evaluate MambaMoE for HSI classification:
