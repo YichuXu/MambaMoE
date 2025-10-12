@@ -11,7 +11,7 @@
     <br><br>
        	<sup>1</sup> Wuhan University, China, <sup>2</sup> Henan Academy of Sciences, China, <sup>†</sup>Corresponding author <br> 
     </h5>
-[![IF paper](https://img.shields.io/badge/IF-paper-00629B.svg)](https://www.sciencedirect.com/science/article/pii/S089360802500190X?dgcid=author1) [![arXiv paper](https://img.shields.io/badge/arXiv-paper-b31b1b.svg)](https://arxiv.org/abs/2504.20509)
+[![IF paper](https://img.shields.io/badge/IF-paper-00629B.svg)](https://www.sciencedirect.com/science/article/pii/S1566253525008735) [![arXiv paper](https://img.shields.io/badge/arXiv-paper-b31b1b.svg)](https://arxiv.org/abs/2504.20509)
 </div>
 
 
@@ -118,7 +118,7 @@ if you find it useful for your research, please consider giving this repo a ⭐ 
   title={MambaMoE: Mixture-of-Spectral-Spatial-Experts State Space Model for Hyperspectral Image Classification}, 
   journal={Information Fusion},
   volume = {},
-  pages = {},
+  pages = {103811},
   year = {2025}
 }
 ```
