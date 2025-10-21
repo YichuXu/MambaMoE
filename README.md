@@ -117,9 +117,9 @@ if you find it useful for your research, please consider giving this repo a ⭐ 
   author={Xu, Yichu and Wang, Di and Jiao, Hongzan Zhang, Lefei and Zhang, Liangpei},
   title={MambaMoE: Mixture-of-Spectral-Spatial-Experts State Space Model for Hyperspectral Image Classification}, 
   journal={Information Fusion},
-  volume = {},
+  volume = {127},
   pages = {103811},
-  year = {2025}
+  year = {2026}
 }
 ```
 
