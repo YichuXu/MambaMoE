@@ -55,7 +55,7 @@ conda activate MambaMoE
 
 Our method uses python 3.8, pytorch 1.13, other environments are in requirements.txt
 
-**Please use the following mamba version: mamba_ssm==1.2.0**
+**Please use the following mamba version: mamba_ssm==1.2.0 !**
 ```bash
 pip install -r requirements.txt
 cd kernels/selective_scan && pip install .
