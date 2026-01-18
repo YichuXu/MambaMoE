@@ -108,9 +108,6 @@ CUDA_VISIBLE_DEVICES=0 python  main.py --model MambaMoE --dataID 6 --epoch 200 -
 * *We'd appreciate it if you could give this repo a ⭐️**star**⭐️ and stay tuned.*
 
 
-
-
-
 ## 📜Reference
 
 if you find it useful for your research, please consider giving this repo a ⭐ and citing our paper! We appreciate your support！😊
@@ -128,6 +125,6 @@ if you find it useful for your research, please consider giving this repo a ⭐ 
 ## 🙋Q & A
 **For any questions, please [contact us.](mailto:xuyichu@whu.edu.cn)**
 
-
+[![Star History Chart](https://api.star-history.com/svg?repos=YichuXu/MambaMoE&type=Date)](https://star-history.com/#YichuXu/MambaMoE&Date)
 
 
