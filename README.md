@@ -125,6 +125,6 @@ if you find it useful for your research, please consider giving this repo a ⭐ 
 ## 🙋Q & A
 **For any questions, please [contact us.](mailto:xuyichu@whu.edu.cn)**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YichuXu/MambaMoE&type=Date)](https://star-history.com/#YichuXu/MambaMoE&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=yichuxu%2Fmambamoe&type=Date)](https://star-history.com/#YichuXu/MambaMoE&Date)
 
 
